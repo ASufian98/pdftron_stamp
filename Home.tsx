@@ -15,9 +15,15 @@ type Props = CompositeScreenProps<
 >;
 
 const Home: React.FC<Props> = ({navigation, route}) => {
-  const [signatureUrl, setSignatureUrl] = useState('');
-  const [rubberStampUrl, setRubberStampUrl] = useState('');
-  const [pdfUrl, setPdfUrl] = useState('');
+  const [signatureUrl, setSignatureUrl] = useState(
+    'https://i.imgur.com/LjOrpfA.jpeg',
+  );
+  const [rubberStampUrl, setRubberStampUrl] = useState(
+    'https://i.imgur.com/LjOrpfA.jpeg',
+  );
+  const [pdfUrl, setPdfUrl] = useState(
+    'https://www.sfu.ca/~wainwrig/Econ400/documents/460-TERM-PAPER-EXAMPLE.pdf',
+  );
   const [defaultFontSize, setDefaultFontSize] = useState('16');
 
   const handleSignatureUrlChange = (text: string) => {
