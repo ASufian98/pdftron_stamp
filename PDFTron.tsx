@@ -33,6 +33,13 @@ const PDFTron: React.FC<Props> = ({navigation, route}) => {
 
   return (
     <DocumentView
+      // fontSize={fontSize_var}
+      signatureUrl={signature}
+      signatureArrayUrl={[
+        'https://i.imgur.com/LjOrpfA.jpeg',
+        'https://i.imgur.com/fZPC7zh.jpeg',
+      ]}
+      rubberStampUrl={rubberStamp}
       document={path}
       showLeadingNavButton={true}
       leadingNavButtonIcon={
