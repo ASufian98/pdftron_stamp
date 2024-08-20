@@ -5753,9 +5753,9 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-"react-native-pdftron@github:binacloudmy/pdftron-react-native-sdk":
+"react-native-pdftron@github:binacloudmy/pdftron-react-native-sdk#feature/hide-signature":
   version "3.0.4-4"
-  resolved "https://codeload.github.com/binacloudmy/pdftron-react-native-sdk/tar.gz/537683590ff1db80e85f8b7ebd0ff995bcd8147b"
+  resolved "https://codeload.github.com/binacloudmy/pdftron-react-native-sdk/tar.gz/166db84d2cccd711ab54213e677c8261d908912c"
   dependencies:
     deprecated-react-native-prop-types "*"
 
